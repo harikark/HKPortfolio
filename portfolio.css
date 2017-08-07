@@ -60,11 +60,15 @@ body {
   min-width: 100%;
   height: 500px;
 }
+#web {
+	height: 150px;
+}
 #world{
 	height: 200px;
 }
 #tech {
-	height: 200px; 
+	height: 250px; 
+	padding-right: 100;
 }
 #linkedin {
 	height: 50px; 
@@ -90,7 +94,9 @@ body {
   margin-left: 10px;
 }
 
-
+#large{
+	height:100px;
+}
 /* Featurettes
 ------------------------- */
 
