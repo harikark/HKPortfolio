@@ -29,6 +29,10 @@
   width: auto;
 }
 
+button.navbar-toggler {
+background:yellow !important; /* !important is just to override other styles, if any. */
+}
+
 #contact, h2, h3{
 font-family: 'Merienda', cursive;
 font-color:blue;
