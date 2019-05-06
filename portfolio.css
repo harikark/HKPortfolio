@@ -2,11 +2,6 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-  font-family: 'Happy Monkey', cursive;
-}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -34,18 +29,37 @@ body {
   width: auto;
 }
 
-
+#contact, h2, h3{
+font-family: 'Merienda', cursive;
+font-color:blue;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
 /* Carousel base class */
 .carousel {
   height: 500px;
   margin-bottom: 60px;
 }
+.first-slide{
+  width:100%;
+  max-height: 689px !important;
+}
+
+.carousel-inner2{
+  width:100%;
+  max-height: 190px !important;
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+}
+
+#rounded{
+  border-radius: 15px 50px 30px;
+  background: purple;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
 }
 
 /* Declare heights because of positioning of img element */
@@ -60,6 +74,13 @@ body {
   min-width: 100%;
   height: 500px;
 }
+.icon-block {
+  padding: 0 15px;
+  width:33%;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
 #web {
 	height: 150px;
 }
@@ -67,8 +88,9 @@ body {
 	height: 200px;
 }
 #tech {
-	height: 250px; 
-	padding-right: 100;
+	height: 200px; 
+  width: 500px;
+	padding: 0;
 }
 #linkedin {
 	height: 50px; 
