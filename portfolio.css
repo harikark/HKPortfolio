@@ -33,7 +33,7 @@ button.navbar-toggler {
 background:yellow !important; /* !important is just to override other styles, if any. */
 }
 
-#contact, h2, h3{
+#contact, h2{
 font-family: 'Merienda', cursive;
 font-color:blue;
 }
@@ -196,12 +196,12 @@ a:hover {
   perspective: 500px; 
 }
 .frame img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 .frame .details {
-  width: 70%;
-  height: 80%;  
+  width: 80%;
+  height: 95%;  
   padding: 5% 8%;
   position: absolute;
   content: "";
