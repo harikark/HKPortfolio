@@ -30,7 +30,7 @@
 }
 
 button.navbar-toggler {
-background:yellow !important; /* !important is just to override other styles, if any. */
+background:lightblue!important; /* !important is just to override other styles, if any. */
 }
 
 #contact, h2{
