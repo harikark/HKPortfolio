@@ -95,7 +95,12 @@ a:hover {
   float: left; 
   }
 }
-
+@media (max-width: 350px) {
+    .container{
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
 
 /* CSS Image Hover. Created refering to Naoya's Pen: https://codepen.io/nxworld/pen/ZYNOBZ */
 /*Sepia*/
