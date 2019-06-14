@@ -34,7 +34,7 @@ background:lightblue!important; /* !important is just to override other styles, 
 }
 
 #contact, h2{
-font-family: 'Merienda', cursive;
+font-family: 'Shadows Into Light', cursive;
 font-color:blue;
 }
 /* CUSTOMIZE THE CAROUSEL
@@ -69,7 +69,7 @@ font-color:blue;
   height: 150px; 
 }
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   text-transform: uppercase;
 }
 a:hover {
