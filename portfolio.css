@@ -9,6 +9,7 @@
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
+  font-family: 'Shadows Into Light', cursive;
   position: absolute;
   top: 0;
   right: 0;
@@ -20,6 +21,7 @@
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
+  color:black;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -29,11 +31,12 @@
   width: auto;
 }
 
+
 button.navbar-toggler {
 background:lightblue!important; /* !important is just to override other styles, if any. */
 }
 
-#contact, h2{
+#contact, h2,h4{
 font-family: 'Shadows Into Light', cursive;
 font-color:blue;
 }
